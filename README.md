@@ -18,12 +18,7 @@ Copy the `CustomGraph2.qml` file into your Qt project.
 
 ### **2️⃣ Import Required Modules**  
 
-Ensure you have the required Qt modules in your `main.qml` or any relevant QML file:  
-
-```qml
-import QtQuick 2.15
-import QtCharts 2.15
-```
+Ensure you've added **charts** to the **CMakeLists.txt** `find_package(...)` and also added **CustomGraph2.qml** to `qt_add_qml_module(...)`:  
 
 ### **3️⃣ Use the Component in Your QML File**  
 
